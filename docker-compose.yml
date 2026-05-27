@@ -44,7 +44,7 @@ services:
     environment:
       NEXT_PUBLIC_API_URL: http://backend:8080/api
     ports:
-      - "3000:3000"
+      - "3000:80"
     networks:
       - horseracing-network
 
